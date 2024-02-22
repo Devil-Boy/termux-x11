@@ -141,7 +141,7 @@ public class LoriePreferences extends AppCompatActivity {
                 findPreference("dexMetaKeyCapture").setVisible(false);
             SeekBarPreference scalePreference = findPreference("displayScale");
             scalePreference.setMin(30);
-            scalePreference.setMax(200);
+            scalePreference.setMax(300);
             scalePreference.setSeekBarIncrement(10);
             scalePreference.setShowSeekBarValue(true);
 
